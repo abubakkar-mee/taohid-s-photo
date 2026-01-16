@@ -28,7 +28,7 @@ setInterval(changeImg, 2000)
     <div>
       <h2 className='text-white font-bold text-3xl text-center p-4'>{name}</h2>
       <div className='flex justify-center pb-2 '>
-        <a href="https://web.facebook.com/profile.php?id=61578696069403">
+        <a target='_blank' href="https://web.facebook.com/profile.php?id=61578696069403">
           <FaSquareFacebook className='text-center text-3xl text-white cursor-pointer'/>
         </a>
       </div>
