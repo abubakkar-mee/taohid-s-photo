@@ -24,12 +24,18 @@ setInterval(changeImg, 2000)
 
   return (
     <>
-    <div className='h-[100vh] w-[100vw] bg-orange-700'>
+    <div>
       <h2 className='text-white font-bold text-3xl text-center p-4'>{name}</h2>
-      <div className='flex justify-center'>
+      <div className='flex justify-center mb-8'>
         <img className='w-[80%] h-[350px] object-cover rounded-xl' src={img1} alt="taohid" />
       </div>
-      
+      <div className='flex justify-center mb-8'>
+        <img className='w-[80%] h-[350px] object-cover rounded-xl' src={img2} alt="taohid" />
+      </div>
+      <div className='flex justify-center'>
+        <img className='w-[80%] h-[350px] object-cover rounded-xl' src={img3} alt="taohid" />
+      </div>
+
     </div>
     </>
   )
