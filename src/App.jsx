@@ -5,6 +5,7 @@ import img2 from './assets/img2.jpg'
 import img3 from './assets/img3.jpg'
 import viteLogo from '/vite.svg'
 import { FaSquareFacebook } from "react-icons/fa6";
+import { Analytics } from '@vercel/analytics/react';
 
 const images = [img1,img2,img3]
 
@@ -25,6 +26,7 @@ setInterval(changeImg, 2000)
 
   return (
     <>
+    <Analytics/>
     <div>
       <h2 className='text-white font-bold text-3xl text-center p-4'>{name}</h2>
       <div className='flex justify-center pb-2 '>
